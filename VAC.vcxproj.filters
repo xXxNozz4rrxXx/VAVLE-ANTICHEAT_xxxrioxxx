@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Encryption">
+      <UniqueIdentifier>{c7e4e98e-48c8-4976-9369-c4adca5fbb0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{0cdbedfa-3e62-4558-93de-833e68381a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\DeviceInfo">
+      <UniqueIdentifier>{7181e515-6d3e-40e6-a8b0-301a8d3ca7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\DriverInfo">
+      <UniqueIdentifier>{ddcf1cf0-62d2-438f-b61d-76a76e99a079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\SystemInfo">
+      <UniqueIdentifier>{445b7b5a-cb2e-489c-8a38-929de2d074af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\ProcessHandleList">
+      <UniqueIdentifier>{a30ea731-8e60-451e-8484-802f4db29fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\ProcessMonitor">
+      <UniqueIdentifier>{4a25f63e-9f52-498d-8426-35ef45be3823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\ReadModules">
+      <UniqueIdentifier>{d6402769-90dd-4cd0-941a-0b4de4c3ce81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\Ice.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\DeviceInfo\DeviceInfo.h">
+      <Filter>Modules\DeviceInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\DriverInfo\DriverInfo.h">
+      <Filter>Modules\DriverInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\SystemInfo\SystemInfo.h">
+      <Filter>Modules\SystemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\ProcessHandleList\ProcessHandleList.h">
+      <Filter>Modules\ProcessHandleList</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\ProcessMonitor\ProcessMonitor.h">
+      <Filter>Modules\ProcessMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\ReadModules\ReadModules.h">
+      <Filter>Modules\ReadModules</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption\Ice.c">
+      <Filter>Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\DeviceInfo\DeviceInfo.c">
+      <Filter>Modules\DeviceInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\DriverInfo\DriverInfo.c">
+      <Filter>Modules\DriverInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\SystemInfo\SystemInfo.c">
+      <Filter>Modules\SystemInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\ProcessHandleList\ProcessHandleList.c">
+      <Filter>Modules\ProcessHandleList</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\ProcessMonitor\ProcessMonitor.c">
+      <Filter>Modules\ProcessMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\ReadModules\ReadModules.c">
+      <Filter>Modules\ReadModules</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
